@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tokenize should tokenize 1`] = `
+Array [
+  Token {
+    "type": "LEFT_PAREN",
+    "value": "(",
+  },
+  Token {
+    "type": "WORD",
+    "value": "print",
+  },
+  Token {
+    "type": "WHITESPACE",
+    "value": " ",
+  },
+  Token {
+    "type": "LEFT_PAREN",
+    "value": "(",
+  },
+  Token {
+    "type": "WORD",
+    "value": "a",
+  },
+  Token {
+    "type": "RIGHT_PAREN",
+    "value": ")",
+  },
+  Token {
+    "type": "RIGHT_PAREN",
+    "value": ")",
+  },
+  Token {
+    "type": "EOF",
+    "value": "",
+  },
+]
+`;

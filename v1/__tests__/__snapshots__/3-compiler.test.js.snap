@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`compile should compile 1`] = `
+Function {
+  "opcodes": Array [
+    Opcode {
+      "type": "LOAD_FAST",
+      "value": "print",
+    },
+    Opcode {
+      "type": "LOAD_FAST",
+      "value": "a",
+    },
+    Opcode {
+      "type": "CALL_FUNCTION",
+      "value": 0,
+    },
+    Opcode {
+      "type": "CALL_FUNCTION",
+      "value": 1,
+    },
+    Opcode {
+      "type": "POP_TOP",
+      "value": 0,
+    },
+  ],
+}
+`;

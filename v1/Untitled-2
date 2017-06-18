@@ -1,0 +1,8 @@
+                            []
+LOAD_FAST      'print'      [print()]
+LOAD_FAST      'add'        [print(), add()]
+LOAD_CONST     1            [print(), add(), 1]
+LOAD_CONST     1            [print(), add(), 1, 1]
+CALL_FUNCTION  2            [print(), 2]
+CALL_FUNCTION  1            [undefined]
+POP_TOP        0            []

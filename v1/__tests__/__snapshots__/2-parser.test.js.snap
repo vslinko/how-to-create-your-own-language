@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parse should parse 1`] = `
+Program {
+  "expressions": Array [
+    ParenExpression {
+      "args": Array [
+        ParenExpression {
+          "args": Array [],
+          "name": Identifier {
+            "text": "a",
+            "type": "Identifier",
+          },
+          "type": "Expression",
+        },
+      ],
+      "name": Identifier {
+        "text": "print",
+        "type": "Identifier",
+      },
+      "type": "Expression",
+    },
+  ],
+  "type": "Program",
+}
+`;
